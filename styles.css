@@ -1,0 +1,27 @@
+pre {
+    color: darkgoldenrod;
+}
+
+.change-color {
+    color: lightslategray;
+}
+
+.enlarge {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.add-border {
+    border: 6px dotted rebeccapurple;
+    border-radius: 20px;
+}
+
+.accent {
+    color: lightseagreen;
+}
+
+li {
+    color: darkblue;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif
+}
