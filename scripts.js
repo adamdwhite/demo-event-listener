@@ -126,3 +126,22 @@ quotesArray.forEach((quote, index) => {
 
     });
 });
+
+//creating new array definition for buttons html 
+
+let characterSimpson = [10, 20, 30, 40];
+let characterOther = [50, 60, 70, 80];
+
+function changeScores(item, index, whichArray) {
+    whichArray[index] = item * 10;
+}
+document.getElementById("changeSimpson").addEventListener("click", () => {
+    characterSimpson.forEach(changeScores);
+    console.log("Simpson", characterSimpson);
+});
+document.getElementById("changeOther").addEventListener("click", () => {
+    characterOther.forEach(changeScores);
+    console.log("Other", characterOther);
+});
+
+//the forEach function builds in the items and passes them into the array here ^
